@@ -1,0 +1,114 @@
+.spots-search-title {
+    text-align:left;
+    border-bottom: solid 1px;
+    color: #039;
+    float: left;
+}
+
+.spots-search-title h1, h5{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.spot-name-value {
+    text-align:left;
+    border-bottom: solid 1px;
+}
+
+.spot-desc-title {
+    text-align:left;
+}
+
+.spot-desc-value {
+    text-align:left;
+}
+
+div#map {
+    padding: 5px;
+    height:700px;
+}
+
+div#map_container{
+    width:75%;
+    min-height: 700px;
+    float:left;
+}
+
+div#search-results {
+    float:left;
+    width:25%;
+    height: 700px;
+    overflow-y: auto;
+}
+
+#result-table {
+    border-collapse: collapse;
+}
+
+#result-table tbody{
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#result-table tbody:hover{
+    background-color: #FFF7C0;
+}
+
+#result-table tr {
+    text-align: left;
+    padding: 3px;
+    border-style: none;
+}
+
+.spot-result-title {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#spot-title-row:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.spot-result-count {
+    padding-top: 10px;
+    padding-left:5px;
+    padding-right : 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.spot-result-desc {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.spot-result-options {
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#no-results {
+    display:none;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#spot-detail-map{
+    padding: 5px;
+    height:300px;
+    width: 300px;
+}

@@ -1,0 +1,198 @@
+form ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+form li{
+	float:Left;
+	padding:4px 10px 4px 10px;
+	clear:both;
+	background-color:transparent;
+	position:relative; /* Makes Instructs z-index stay on top in IE. */
+	-webkit-transition: background-color 350ms ease-out;
+	   -moz-transition: background-color 350ms ease-out;
+	     -o-transition: background-color 350ms ease-out;
+	        transition: background-color 350ms ease-out;
+}
+
+form ul:after,form li:after, form li div:after{
+	content:"."; 
+	display:block;
+	height:0; 
+	clear:both; 
+	visibility:hidden;
+}
+
+form li div{
+	margin:0;
+	padding:0;
+	color:#444;
+}
+
+form li span{
+	margin:0 .3em 0 0;
+	padding:0;
+	float:left;
+	color:#444;
+}
+
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clear{
+	clear:both !important;
+}
+
+label span, .section span, p span, .likert span{
+	display:inline !important;
+	float:none !important;
+}
+
+form li div label, form li span label{
+	margin:0;
+	padding-top:3px;
+	clear:both;
+	font-size:85%;
+	line-height:160%;
+	color:#444;
+	display:block;
+}
+
+label.desc, legend.desc{
+	font-size:95%;
+	font-weight:bold;
+	color:#222;
+	line-height:150%;
+	margin:0;
+	padding:0 0 3px 0;
+	border:none;
+	display:block;
+	white-space: normal;
+	width:100%;
+}
+
+form span.req{
+	display:inline;
+	float:none;
+	color:red !important;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+
+.third{
+	width:32% !important;
+}
+.half{
+	width:48% !important;
+}
+.full{
+	width:100% !important;
+}
+
+input.small{
+	width:25px;
+}
+input.medsmall{
+	width:40px;
+}
+input.medium{
+	width:50px;
+}
+input.large{
+	width:250px;
+}
+
+.leftLabel li, .rightLabel li{
+	width:74% !important;
+	padding-top:9px;
+}
+.leftLabel .desc, .rightLabel .desc{
+	float:left;
+	width:31%;
+	margin:0 15px 0 0;
+}
+.rightLabel .desc{
+	text-align:right;
+}
+.leftLabel li div, .rightLabel li div{
+	float:left;
+	width:65%;
+}
+
+.leftLabel .buttons, .rightLabel .buttons{
+	padding-left:23%;
+}
+.leftLabel .buttons div, .rightLabel .buttons div{
+	float:none;
+	margin:0 0 0 20px;
+}
+
+.leftLabel p.instruct, .rightLabel p.instruct{
+	width:28%;
+	margin-left:5px;
+}
+.leftLabel .altInstruct .instruct, .rightLabel .altInstruct .instruct{
+	margin-left:31% !important;
+	padding-left:15px;
+	width:65%;
+}
+
+form li.focused{
+	background-color:#fff7c0;
+}
+
+form li.section{
+	clear:both;
+	margin:0;
+	padding:7px 0 0 0;
+	width:auto !important;
+	position:static;
+}
+form li.section h3{
+	font-weight:normal;
+	font-size:110%;
+	line-height:135%;
+	margin:0 0 3px 0;
+	width:auto;
+	padding:12px 1% 0 1%;
+	border-top:1px dotted #ccc;
+}
+form li.first{
+	padding:0;
+}
+form li.first h3{
+	padding:8px 1% 0 1%;
+	border-top:none !important;
+}
+form li.section div{
+	display:block;
+	width:auto;
+	float:none;
+	font-size:85%;
+	line-height:160%;
+	margin:0 0 1em 0;
+	padding:0 1% 0 1%;
+}
+
+#commentBox {
+    background: none;
+    border: 1px solid #C1C1C1;
+    color: #AAAAAA;
+    font: 11px "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+    padding: 5px;
+    text-align: left;
+}
+
+#uri{
+    background: none;
+    border: 1px solid #C1C1C1;
+    color: #AAAAAA;
+    font: 11px "Lucida Sans Unicode" , "Lucida Grande" ,sans-serif;
+    padding: 5px;
+    text-align: left;
+}

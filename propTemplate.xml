@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="php" deleted="false" description="private field with Getter and setter" enabled="true" name="prop">private ${dollar}_${fieldName};&#13;
+public function Get${fieldName}() { return ${dollar}this-&gt;_${fieldName}; }&#13;
+public function Set${fieldName}(${dollar}${fieldName}) { ${dollar}this-&gt;_${fieldName} = ${dollar}${fieldName}; }${cursor}</template></templates>
